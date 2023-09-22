@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+    <html lang="en">    
+    <head>
+        <title>Tutorial 1 Portfolio Mara Sanauceanu</title>
+        <style>
+            p{font-family: Arial, Helvetica, sans-serif;}
+            h1{font-family: Arial, Helvetica, sans-serif;}
+            h2{font-family: Arial, Helvetica, sans-serif;}
+            h3{font-family: Arial, Helvetica, sans-serif;}
+            h4{font-family: Arial, Helvetica, sans-serif;}
+            li{font-family: Arial, Helvetica, sans-serif;}
+            .card {
+            box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+            transition: 0.3s;
+            border-radius: 5px; 
+            width:50%;
+            }
+            .card:hover {
+            box-shadow: 0 8px 16px 0 rgba(144, 0, 255, 0.626);
+            }
+            .container {
+            padding: 4px 16px;
+            }
+            img {
+            border-radius: 10px 10px 0 0;
+            }
+            .column {
+            float: left;
+            width: 45%;
+            padding: 1%;
+            }
+            .footer{
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            background-color: rgba(144, 0, 255, 0.626);
+            color: white;
+            text-align: center;
+            }
+            .topnav{
+                text-align: center;
+            }            
+        </style>
+    </head>
+    <body>
+        <img src="images/decorative_border.png" alt="LA" style="width:100%">
+        <div class="topnav">
+            <a href="#hero">Home</a>
+            <a href="#aboutMe">About Me</a>
+            <a href="#workExperience">Work Experience</a>
+            <a href="#contact">Contact Me</a>
+        </div>
+        
+        <h1 id="hero">Mara Sanauceanu</h1>
+            <h3>Second Year Software Engineering Student at Western University</h3>
+            <img src="images/me.jpg" style="width:50%">
+            <br><br>
+            <button type="button">
+               Click to send $ for sushi
+            </button>
+            
+        <h1 id="aboutMe">About Me</h1>
+            <h2>Background</h2>
+                <p>My name is Mara Sanauceanu and I am a second year software student at Western University. I grew up in Mississauga, Ontario but my family is originally from Romania. </p>
+            <h3>Hobbies</h3>
+                <p>One of my favourite hobbies is playing sports and I also love reading and cooking!</p>
+            <h2>Fun Facts</h2>
+                <ul>
+                    <li>I play on the Western Womens Varsity Soccer Team! Go Stangs!</li>
+                    <li>I am a proud fish owner to a betta named Zammy</li>
+                    <li>I can make mimic loon bird calls quite well</li>
+                    <li>I love sushi so please click the button in the <a href=#hero>Home</a> section</li>
+                </ul>
+        <h1 id="workExperience">Work Experience</h1>
+            <div class="row">
+                <div class="column">
+                    <div class="card">
+                        <img src="images/book.jpg" alt="Avatar" style="width:100%">
+                        <div class="container">
+                            <h4><b>Tutoring</b></h4>
+                            <p>Summer 2023</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="card">
+                        <img src="images/c.jpg" alt="Avatar" style="width:100%">
+                        <div class="container">
+                            <h4><b>Full Time Student</b></h4>
+                            <p>Since way back in 2010</p>
+                        </div>
+                    </div>
+                </div>
+            </div>  
+        <h1 id="contact">Contact Me</h1>
+            <h4>Email: </h6><p>msanauce@uwo.ca</p>
+            <h4>Student Number: </h6><p>251286651</p>
+            <h3>Ask me a question:</h3>
+            <form action='thankyou.html'>
+                <p>Name:
+                    <input type="text" name="name"/>
+                   Question:
+                    <input type="text" name="question"/> 
+                    <input type="submit" value="Submit"/>
+                </p>
+            </form>
+        <div class="footer">
+            <p>Mara's Portfolio</p>
+        </div>
+        <a href="#top">Back To Top</a>
+        <p><br></p>
+    </body>
+</html>
